@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/DaRk
+cd $HOME/DARK
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
@@ -33,7 +33,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua DARK.lua
-sudo chmod +x DaRk
+sudo chmod +x DARK
 sudo chmod +x ./BK
 ./BK
 fi
